@@ -1,0 +1,6 @@
+---
+
+- hosts: all
+  tasks:
+    - name: buat folder
+      shell: mkdir -p test1
